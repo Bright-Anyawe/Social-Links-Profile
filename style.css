@@ -1,4 +1,5 @@
-* {font-family: "inter";
+* {
+    font-family: "inter";
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -19,7 +20,7 @@ main {
     height: 550px;
     margin-top: 1rem;
     text-align: center;
-    color:hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 100%);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -30,7 +31,7 @@ main {
 
 img {
     height: 70px;
-     max-width: 100%;
+    max-width: 100%;
     border-radius: 9rem;
 }
 
@@ -48,7 +49,7 @@ header {
     padding-top: 1.4rem;
     white-space: nowrap;
     padding-bottom: 11px;
-    
+
 }
 
 
@@ -67,7 +68,7 @@ p {
 
 
 section {
-    
+
     display: flex;
     flex-direction: column;
     line-height: 2;
